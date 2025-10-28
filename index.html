@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shifa - Connect Doctors and Patients</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="dots">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="Untitled design.png" alt="Shifa Logo" class="logo-img">
+                <h1>Shifa</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="index.html" class="mobile-link active">Home</a></li>
+                <li><a href="about.html" class="mobile-link">About</a></li>
+                <li><a href="features.html" class="mobile-link">Features</a></li>
+                <li><a href="contact.html" class="mobile-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Your Health, Your Doctor — Always Within Reach</h2>
+                    <p>Shifa is a smart medical communication app that connects doctors and patients instantly. Get trusted health advice, book appointments, and manage your consultations — all in one place.</p>
+                    <div class="download-buttons">
+                        <a href="app-arm64-v8a-release.apk" class="btn btn-primary">
+                            <span></span>
+                            Download for Android
+                        </a>
+                        <a href="app-arm64-v8a-release.apk" class="btn btn-secondary">
+                            <span></span>
+                            Get Shifa App
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-mockup">
+                    <svg class="phone-mockup" viewBox="0 0 300 600" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10" y="10" width="280" height="580" rx="30" fill="#1a1a1a"/>
+                        <rect x="20" y="50" width="260" height="500" rx="15" fill="white"/>
+                        <rect x="130" y="25" width="40" height="6" rx="3" fill="#333"/>
+                        <image href="Untitled design.png" x="20" y="50" width="260" height="500" preserveAspectRatio="xMidYMid slice" /> 
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+     <section class="screenshots">
+        <div class="container">
+            <h3 class="section-title">See Shifa in Action</h3>
+            <div class="screenshots-grid">
+                <div class="screenshot-item" style="--sx:20px;--sy:50px;--sw:260px;--sh:500px;--sr:15px;">
+                    <img src="h.jpg" alt="Home Screen" class="screenshot-img" style="width:var(--sw);height:var(--sh);display:block;border-radius:var(--sr);object-fit:cover;">
+                </div>
+                <div class="screenshot-item" style="--sx:20px;--sy:50px;--sw:260px;--sh:500px;--sr:15px;">
+                    <img src="d.jpg" alt="Doctor Profile" class="screenshot-img" style="width:var(--sw);height:var(--sh);display:block;border-radius:var(--sr);object-fit:cover;">
+                </div>
+                <div class="screenshot-item" style="--sx:20px;--sy:50px;--sw:260px;--sh:500px;--sr:15px;">
+                    <img src="p.jpg" alt="Consultation Screen" class="screenshot-img" style="width:var(--sw);height:var(--sh);display:block;border-radius:var(--sr);object-fit:cover;">
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h3 class="section-title">What Our Users Say</h3>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"Shifa made it easy for me to find the right doctor and book an appointment instantly. The chat feature saved me time and stress!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <h5>Sarah M.</h5>
+                            <span>Patient</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"As a doctor, I use Shifa to stay connected with my patients and manage clinic appointments efficiently. It’s simple and professional."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <h5>Dr. Amina K.</h5>
+                            <span>General Practitioner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Finally, a healthcare app that really helps patients communicate and get real advice. The appointment system works perfectly."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <h5>Leila R.</h5>
+                            <span>Patient</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Shifa</h4>
+                    <p>Shifa is a digital bridge between doctors and patients — a trusted medical platform for consultations, advice, and appointment booking with certified professionals.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">t</a>
+                        <a href="#" class="social-icon">in</a>
+                        <a href="#" class="social-icon">ig</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About Us</a></p>
+                    <p><a href="features.html">Features</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@shifa.app</p>
+                    <p>Phone: +213 XX XXX XXXX</p>
+                    <p>Location: Batna, Algeria</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Shifa. All rights reserved. Your health, one tap away.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
